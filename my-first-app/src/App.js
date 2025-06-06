@@ -6,6 +6,7 @@ import Heading from "./components/Heading";
 import Teams from "./components/Teams";
 import maleMember  from "./assets/male.jfif";
 import femaleMember  from "./assets/female.jfif";
+import StateManagement from './components/StateManagement';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
     <div className="App">
       <Heading/>
       <Teams members={memberList}/>
+      <StateManagement/>
          
         {/* <Functional/>
         <ClassComp/> */}

@@ -13,7 +13,8 @@
 
         }
 
-         .main-container{
+         .main-container ,
+         .state-management{
             display: flex;
             justify-content: center;
         }
