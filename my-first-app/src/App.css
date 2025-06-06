@@ -57,3 +57,16 @@
 
 
         }
+        @media screen and (max-width: 600px){
+              .main-container{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              }
+              .member-container{
+                width: 80%;
+              }
+               .member-container img{
+                width: 100%;
+              }
+        }
